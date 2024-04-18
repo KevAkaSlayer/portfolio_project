@@ -19,12 +19,23 @@ body {
     padding: 18px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav style */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin: 0 200px;
 }
 
 .portfolio-title {
@@ -40,7 +51,7 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 50 px;
 }
 
 nav a {
@@ -54,15 +65,53 @@ nav a {
 
 .header {
     background-color: #fff8f3;
-
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
+
+.banner-content {
+    max-width: 500px;
+}
+
 
 .banner .banner-pic {
     width: 500px;
+}
+
+.banner-text {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-heading {
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 0px;
+}
+
+/* main section style */
+
+
+/* about section  */
+
+.about {
+    padding: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0;
 }
