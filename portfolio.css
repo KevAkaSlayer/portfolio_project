@@ -46,5 +46,23 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+    margin: 0 200px;
+}
 
+
+/* header related */
+
+.header {
+    background-color: #fff8f3;
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-pic {
+    width: 500px;
 }
